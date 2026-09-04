@@ -2,7 +2,7 @@ package net.kuko.alwaystrader;
 
 import net.fabricmc.api.ModInitializer;
 
-public class AlwaysTrader implements ModInitializer {
+public class ExampleMod implements ModInitializer {
     
     @Override
     public void onInitialize() {
@@ -12,7 +12,7 @@ public class AlwaysTrader implements ModInitializer {
         // project.
 
         // Use Fabric to bootstrap the Common mod.
-        Constants.LOG.info("Hello Fabric world!");
+      //  Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
     }
 }

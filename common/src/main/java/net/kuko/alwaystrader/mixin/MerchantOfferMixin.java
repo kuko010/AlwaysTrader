@@ -14,4 +14,6 @@ public class MerchantOfferMixin {
     private void neverOutOfStock(CallbackInfoReturnable<Boolean> cir) {
         cir.setReturnValue(false);
     }
+
+
 }
